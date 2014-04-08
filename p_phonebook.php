@@ -14,7 +14,7 @@ if(isset($_POST['submit']))
     $last_name = $_POST['last_name'];
     $email = $_POST['email'];
     $cell_no = $_POST['cell_no'];
-    $tel_no = $_POST['tel_no'];
+    $tel_no = $_POST['tell_no'];
     $other_field = $_POST['boxes'];
     if(!empty($other_field))
     {   
