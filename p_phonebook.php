@@ -46,6 +46,12 @@ if(isset($_POST['submit']))
         header("location:index.php");
         exit;
     }
+     elseif (!$object->validate_number($tel_no))
+    {
+        $_SESSION['error'] = "Please enter your Tell No .";
+        header("location:index.php");
+        exit;
+    }
    
  else 
      {
